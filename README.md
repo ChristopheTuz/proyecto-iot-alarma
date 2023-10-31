@@ -42,7 +42,9 @@ Si el mensaje no está vacío, se realiza una verificación adicional. Si el men
 </h5>
 
 ### RabbitMQ 
-Describir su interacción
+<h5>
+La utilización de RabbitMQ en este proyecto se emplea con el propósito de transmitir una señal desde el equipo cliente hasta el servidor, con el fin de confirmar si el usuario ha sido validado. Esto se lleva a cabo con el propósito de enviar datos a través de la señal y verificar en el proceso de recepción si ha llegado algún mensaje. La información transmitida puede ser relativa a la validez o no del usuario. En el lado del servidor se manipulará esa señal para hacer la petición a la base de datos en firebase para saber cual fue el último status de la alarma. Con el fin de ejecutar el código de simulación de la alarma para activar o desactivar dicho dispositivo.
+</h5>
 
 ---
 
