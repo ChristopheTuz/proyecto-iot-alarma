@@ -31,8 +31,15 @@ Describir
 Describir su interacción
 
 # REQUERIMIENTOS
-Dockers
+
+### Dockers
+<code>docker run -it --rm --name rabbitmq -p port:port -p port:port rabbitmq:3.12-management</code>
+
+### Librerias en Python
 <code>
-docker run -it --rm --name rabbitmq -p port:port -p port:port rabbitmq:3.12-management
+import streamlit as st
+from firebase import firebase # Firebase
 </code>.
+
+### Librerias en C#
 
