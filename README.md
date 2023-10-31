@@ -21,7 +21,7 @@ Mediante Firebase
 ### Alarma (Simulación)
 Código dentro de [alarma.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Server/alarma.py)
 
-
+---
 # CÓDIGO
 Contamos con un Cliente y un servidor 
 
