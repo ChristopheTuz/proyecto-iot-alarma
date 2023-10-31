@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "TX2GbdOkdJdY0wwgDCr9jte1rC5K23356pk8dl7sL1RIH9RDZ/5T69v8Chxbsh4gatZG9ONDbiwmHQKkNWGRhw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\TuzCe\\Desktop\\IoT\\RabbitMQ - Tuz Cetina\\Receive\\Receive.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\TuzCe\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
+    "C:\\Users\\TuzCe\\.nuget\\packages\\system.memory\\4.5.5\\system.memory.4.5.5.nupkg.sha512",
+    "C:\\Users\\TuzCe\\.nuget\\packages\\system.threading.channels\\7.0.0\\system.threading.channels.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}
