@@ -36,10 +36,17 @@ Describir su interacción
 <code>docker run -it --rm --name rabbitmq -p port:port -p port:port rabbitmq:3.12-management</code>
 
 ### Librerias en Python
-<code>
-import streamlit as st
+<code>import streamlit as st
 from firebase import firebase # Firebase
-</code>.
+import pika
+import getpass
+from datetime import datetime
+import tkinter as tk
+</code>
 
 ### Librerias en C#
-
+<code>using System.Text;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
+using System.Diagnostics;
+</code>
