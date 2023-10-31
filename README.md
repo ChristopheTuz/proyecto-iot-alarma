@@ -37,7 +37,9 @@ Durante la ejecución del programa, se solicita al usuario que proporcione su ID
 
 ## Server [en C#]
 [Receive.cs](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Server/Receive/Receive.cs)
-Describir
+<h5> La aplicación C# utiliza la biblioteca RabbitMQ.Client para establecer la conexión con un servidor RabbitMQ local. Se define un objeto 'factory' de la clase 'ConnectionFactory', donde se especifica el nombre del host de conexión, en este caso, "localhost", Luego, se especifica la ruta del script Python que se ejecutará, que se encuentra en la ubicación relativa "../alarma.py", se utiliza la interfaz 'IConnection' para crear la conexión con el servidor RabbitMQ y, dentro de un bloque 'using', se crea un canal de comunicación utilizando 'connection.CreateModel()', se declara una cola llamada "hello" utilizando el método 'QueueDeclare' en el canal recién creado. Los parámetros 'durable', 'exclusive' y 'autoDelete' se establecen en 'false' y 'arguments' se establece en 'null', se define un consumidor de eventos ('consumer') utilizando la clase 'EventingBasicConsumer' y se suscribe al evento 'Received'. Cuando se recibe un mensaje, se decodifica y se comprueba su contenido.
+Si el mensaje no está vacío, se realiza una verificación adicional. Si el mensaje es "1", se muestra el mensaje "Alarma desactivada" y se inicia el script Python utilizando el método 'Process.Start("python", scriptPath)'. En caso contrario, se muestra "Alarma activada" y también se inicia el script Python.Si el mensaje está vacío, se imprime "Error: Usuario no válido", la aplicación C# consume los mensajes de la cola "hello" utilizando el método 'BasicConsume' y, después de iniciar el proceso de escucha, muestra "Listening..." en la consola. la aplicación espera a que el usuario presione cualquier tecla para salir. Una vez que se presiona una tecla, la aplicación se detiene y sale del bucle.
+</h5>
 
 ### RabbitMQ 
 Describir su interacción
