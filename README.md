@@ -10,10 +10,10 @@ Físico
 Físico
 
 - ### Front-End
-[formulario.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Front-End/formulario.py)
+Código dentro de [formulario.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Front-End/formulario.py)
 
 - ### Verificación de usuarios
-código dentro de [alarm_project.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Cliente/alarm_project.py)
+Código dentro de [alarm_project.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Cliente/alarm_project.py)
 
 - ### Base de datos (No SQL)
 Mediante Firebase
