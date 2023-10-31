@@ -30,10 +30,17 @@ Describir
 ### RabbitMQ 
 Describir su interacción
 
+
 # REQUERIMIENTOS
 
+### Rabbit
+[Sitio oficial](https://www.rabbitmq.com/download.html)
+Recomendación de uso:
+<code>docker run -it --rm --name rabbitmq -p 5672:5672 -p 15672:15672 rabbitmq:3.12-management</code>
+En caso de utilizar la instalación mediante docker es necesario instalar docker.
+
 ### Dockers
-<code>docker run -it --rm --name rabbitmq -p port:port -p port:port rabbitmq:3.12-management</code>
+Verificar documentación [Sitio oficial](https://docs.docker.com/engine/install/)
 
 ### Librerias en Python
 <code>import streamlit as st
