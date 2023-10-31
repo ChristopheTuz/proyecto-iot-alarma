@@ -1,24 +1,24 @@
 # Proyecto Alarma de Internet de las Cosas
 
-## ELEMENTOS EN NUESTRO DIAGRAMA
+- ## ELEMENTOS EN NUESTRO DIAGRAMA
 <img width="1037" alt="image" src="https://github.com/ChristopheTuz/proyecto-iot-alarma/assets/60182870/038c80b2-aa72-446d-bd87-373e3d0711ea">
 
-### Usuario
+- ### Usuario
 Físico
 
-### Lector NFC
+- ### Lector NFC
 Físico
 
-### Front-End
+- ### Front-End
 [formulario.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Front-End/formulario.py)
-### Verificación de usuarios
+
+- ### Verificación de usuarios
 código dentro de [alarm_project.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Cliente/alarm_project.py)
 
-
-### Base de datos (No SQL)
+- ### Base de datos (No SQL)
 Mediante Firebase
 
-### Alarma (Simulación)
+- ### Alarma (Simulación)
 Código dentro de [alarma.py](https://github.com/ChristopheTuz/proyecto-iot-alarma/blob/main/Server/alarma.py)
 
 ---
@@ -36,6 +36,7 @@ Describir
 ### RabbitMQ 
 Describir su interacción
 
+---
 
 # REQUERIMIENTOS
 
