@@ -58,9 +58,12 @@ En caso de utilizar la instalación mediante docker es necesario instalar docker
 Verificar documentación [Sitio oficial](https://docs.docker.com/engine/install/)
 
 ### Librerias en Python
-<code>import streamlit as st
-from firebase import firebase # Firebase
-import pika
+<code>
+python: 3.9.7
+pip: 23.2.1
+import streamlit as st: 1.27.2
+from firebase import firebase: 3.0.1
+import pika: 1.3.2
 import getpass
 from datetime import datetime
 import tkinter as tk
