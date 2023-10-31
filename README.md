@@ -16,3 +16,23 @@ Físico
 Mediante Firebase
 
 ### Alarma (Simulación)
+
+
+# CÓDIGO
+Contamos con un Cliente y un servidor 
+
+## Cliente [en Python]
+Describir
+
+## Server [en C#]
+Describir
+
+### RabbitMQ 
+Describir su interacción
+
+# REQUERIMIENTOS
+Dockers
+<code>
+docker run -it --rm --name rabbitmq -p port:port -p port:port rabbitmq:3.12-management
+</code>.
+
